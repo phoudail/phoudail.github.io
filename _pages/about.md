@@ -22,4 +22,4 @@ I am a PhD student in Software engineering, at the [IRISA](https://www.irisa.fr/
 
 I work on the topic of polyglot (multi-language) programming, and more specifically on the validation of polyglot programs, along with [Benoit Combemale](https://people.irisa.fr/Benoit.Combemale/), [Djamel-Eddine Khelladi](http://people.irisa.fr/Djamel-Eddine.Khelladi/) and [Gunter Mussbacher](http://www.ece.mcgill.ca/~gmussb1/).
 
-I also work along the [ALE](http://gemoc.org/ale/team.html) associate team.
+I also work alongside the [ALE](http://gemoc.org/ale/team.html) associate team.
