@@ -1,22 +1,21 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.diverse-team.fr/'>DiverSE team</a> PhD student
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>PhD Student, [DiverSE](https://www.diverse-team.fr/)</p>
-    <p>CNRS, University of Rennes, IRISA, INRIA</p>
+    <p>Campus of Beaulieu, 35042 Rennes, France</p>
+    <p>CNRS, Univ Rennes, IRISA, INRIA</p>
     <p>Building 12F, F325 (Green floor)</p>
-    <p>Camps of Beaulieu, 35042 Rennes, France</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
