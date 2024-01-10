@@ -7,7 +7,7 @@ subtitle: <a href='https://www.diverse-team.fr/'>DiverSE team</a> PhD student
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>Campus of Beaulieu, 35042 Rennes, France</p>
     <p>CNRS, Univ Rennes, IRISA, INRIA</p>
