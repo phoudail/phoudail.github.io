@@ -1,12 +1,18 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Peaching
 description: Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+For any teaching inquiries, you can contact me through my instutitional e-mail philemon dot houdaille at univ-rennes.fr.
 
-Organize your courses by years, topics, or universities, however you like!
+# ASE 
+
+The full page for the lecture is available [here](https://people.irisa.fr/Benoit.Combemale/course/esir/esir3/#esir3-si-s9-ase). I teach the practical lab sessions for this course for the 3rd year students of [ESIR](https://esir.univ-rennes.fr/en).
+
+# V&V
+
+The full page for the lecture is available [here](https://people.irisa.fr/Benoit.Combemale/course/esir/esir2/#esir2-si-s8-vv). I teach the practical lab sessions for this course for both the 2nd year students of [ESIR](https://esir.univ-rennes.fr/en) and the Master 2 students of [ISTIC](https://istic.univ-rennes.fr/en).
