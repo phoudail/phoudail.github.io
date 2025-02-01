@@ -1,37 +1,115 @@
 ---
 ---
 
-@inproceedings{houdaille_polyglot_2023,
-	title = {Polyglot {AST}: Towards Enabling Polyglot Code Analysis},
-	url = {https://ieeexplore.ieee.org/abstract/document/10321867},
-	doi = {10.1109/ICECCS59891.2023.00023},
-	shorttitle = {Polyglot {AST}},
-	abstract = {Today, a plethora of programming languages exists, each better suited for a particular concern. For example, Python is suited for data analysis but not web development, whereas {JavaScript} is the inverse. As software complexity grows and needs to address multiple concerns, different programming languages are often used in combination, despite the burden of bridging them (e.g., using Java Native Interface). Polyglot programming emerged as a solution allowing the seamless mixing of multiple programming languages. {GraalVM} and {PolyNote} are examples of runtimes allowing polyglot programming. However, there is a striking lack of support at design time for building and analyzing polyglot code. To the best of our knowledge, there is no uniform language-agnostic way of reasoning over multiple languages to provide seamless code analysis, since each language comes with its own form of Abstract Syntax Trees ({AST}). In this paper, we present an approach to build a uniform yet polyglot {AST} over polyglot code, so that it is easier to perform global analysis. We first motivate this challenge and identify the main requirements for building a polyglot {AST}. We then propose a proof of concept implementation of our solutions on {GraalVM}’s polyglot {API}. On top of the polyglot {AST}, we demonstrate the ability to implement several polyglot-specific analysis services, namely auto-completion, consistency checking, type inference, and rename refactoring. Our evaluation on three polyglot projects taken from {GitHub}, and involving {JavaScript} and Python code, shows that we can build a polyglot {AST} without significant overhead. We also demonstrate the usefulness of the polyglot analysis services through the provided automation, as well as their scalability.},
-	eventtitle = {2023 27th International Conference on Engineering of Complex Computer Systems ({ICECCS})},
-	pages = {116--125},
-	booktitle = {2023 27th International Conference on Engineering of Complex Computer Systems ({ICECCS})},
-	author = {Houdaille, Philémon and Khelladi, Djamel Eddine and Briend, Romain and Jongeling, Robbert and Combemale, Benoit},
-	urldate = {2024-11-04},
-	date = {2023-06},
-  year = {2023},
-	note = {{ISSN}: 2770-8535},
-	keywords = {Buildings, code analysis, Codes, development tooling, Java, polyglot programming, Programming, Runtime, Scalability, Syntactics},
-	file = {Full Text PDF:/run/media/phoudail/homedir/phoudail/Zotero/storage/ELY3TPBG/Houdaille et al. - 2023 - Polyglot AST Towards Enabling Polyglot Code Analysis.pdf:application/pdf;IEEE Xplore Abstract Record:/run/media/phoudail/homedir/phoudail/Zotero/storage/NHLCKKGC/10321867.html:text/html},
+@string{aps = {American Physical Society,}}
+
+@book{einstein1920relativity,
+  title={Relativity: the Special and General Theory},
+  author={Einstein, Albert},
+  year={1920},
+  publisher={Methuen & Co Ltd},
+  html={relativity.html}
 }
 
-@inproceedings{houdaille_polyglot_2024,
-	location = {New York, {NY}, {USA}},
-	title = {On Polyglot Program Testing},
-	isbn = {979-8-4007-0658-5},
-	url = {https://dl.acm.org/doi/10.1145/3663529.3663787},
-	doi = {10.1145/3663529.3663787},
-	series = {{FSE} 2024},
-	abstract = {In modern applications, it has become increasingly necessary to use multiple languages in a coordinated way to deal with the complexity and diversity of concerns encountered during development. This practice is known as polyglot programming. However, while execution platforms for polyglot programs are increasingly mature, there is a lack of support in how to test polyglot programs. This paper is a first step to increase awareness about polyglot testing efforts. It provides an overview of how polyglot programs are constructed, and an analysis of the impact on test writing at its different steps. More specifically, we focus on dynamic white box testing, and how polyglot programming impacts selection of input data, scenario specification and execution, and oracle expression. We discuss the related challenges in particular with regards to the current state of the practice. We envision in this paper to raise interest in polyglot program testing within the software engineering community, and help in defining directions for future work.},
-	pages = {507--511},
-	booktitle = {Companion Proceedings of the 32nd {ACM} International Conference on the Foundations of Software Engineering},
-	publisher = {Association for Computing Machinery},
-	author = {Houdaille, Philémon and Khelladi, Djamel Eddine and Combemale, Benoit and Mussbacher, Gunter},
-	urldate = {2024-11-04},
-	date = {2024-07-10},
-  year = {2024},
+@book{einstein1956investigations,
+  bibtex_show={true},
+  title={Investigations on the Theory of the Brownian Movement},
+  author={Einstein, Albert},
+  year={1956},
+  publisher={Courier Corporation},
+  preview={brownian-motion.gif}
+}
+
+@article{einstein1950meaning,
+  abbr={AJP},
+  bibtex_show={true},
+  title={The meaning of relativity},
+  author={Einstein, Albert and Taub, AH},
+  journal={American Journal of Physics},
+  volume={18},
+  number={6},
+  pages={403--404},
+  year={1950},
+  publisher={American Association of Physics Teachers}
+}
+
+@article{PhysRev.47.777,
+  abbr={PhysRev},
+  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
+  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
+  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
+  journal={Phys. Rev.},
+  location={New Jersey},
+  volume={47},
+  issue={10},
+  pages={777--780},
+  numpages={0},
+  year={1935},
+  month={May},
+  publisher=aps,
+  doi={10.1103/PhysRev.47.777},
+  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
+  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+  pdf={example_pdf.pdf},
+  altmetric={248277},
+  dimensions={true},
+  google_scholar_id={qyhmnyLat1gC},
+  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
+  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
+  annotation={* Example use of superscripts<br>† Albert Einstein},
+  selected={true},
+  inspirehep_id = {3255}
+}
+
+@article{einstein1905molekularkinetischen,
+  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
+  author={Einstein, A.},
+  journal={Annalen der physik},
+  volume={322},
+  number={8},
+  pages={549--560},
+  year={1905},
+  publisher={Wiley Online Library}
+}
+
+@article{einstein1905movement,
+  abbr={Ann. Phys.},
+  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
+  author={Einstein, A.},
+  journal={Ann. Phys.},
+  volume={17},
+  pages={549--560},
+  year={1905}
+}
+
+@article{einstein1905electrodynamics,
+  title={On the electrodynamics of moving bodies},
+  author={Einstein, A.},
+  year={1905}
+}
+
+@Article{einstein1905photoelectriceffect,
+  bibtex_show={true},
+  abbr={Ann. Phys.},
+  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
+  author={Albert Einstein},
+  abstract={This is the abstract text.},
+  journal={Ann. Phys.},
+  volume={322},
+  number={6},
+  pages={132--148},
+  year={1905},
+  doi={10.1002/andp.19053220607},
+  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
+  award_name={Nobel Prize}
+}
+
+@book{przibram1967letters,
+  bibtex_show={true},
+  title={Letters on wave mechanics},
+  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
+  year={1967},
+  publisher={Vision},
+  preview={wave-mechanics.gif},
+  abbr={Vision}
 }
