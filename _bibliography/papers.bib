@@ -35,3 +35,21 @@
 	date = {2024-07-10},
   year = {2024},
 }
+
+
+@article{houdaille_polydebug_2025,
+	title = {{PolyDebug}: a Framework for Polyglot Debugging},
+	volume = {9},
+	url = {https://hal.science/hal-04906879},
+	doi = {10.22152/programming-journal.org/2025/10/13},
+	shorttitle = {{PolyDebug}},
+	abstract = {As software grows increasingly complex, the quantity and diversity of concerns to be addressed also rises. To answer this diversity of concerns, developers may end up using multiple programming languages in a single software project, a practice known as polyglot programming. This practice has gained momentum with the rise of execution platforms capable of supporting polyglot systems.However, despite this momentum, there is a notable lack of development tooling support for developers working on polyglot programs, such as in debugging facilities. Not all polyglot execution platforms provide debugging capabilities, and for those that do, implementing support for new languages can be costly.This paper addresses this gap by introducing a novel debugger framework that is language-agnostic yet leverages existing language-specific debuggers. The proposed framework is dynamically extensible to accommodate the evolving combination of languages used in polyglot software development. It utilizes the Debug Adapter Protocol ({DAP}) to integrate and coordinate existing debuggers within a debugging session.We found that using our approach, we were able to implement polyglot debugging support for three different languages with little development effort. We also found that our debugger did not introduce an overhead significant enough to hinder debugging tasks in many scenarios; however performance did deteriorate with the amount of polyglot calls, making the approach not suitable for every polyglot program structure.The effectiveness of this approach is demonstrated through the development of a prototype, {PolyDebug}, and its application to use cases involving C, {JavaScript}, and Python. We evaluated {PolyDebug} on a dataset of traditional benchmark programs, modified to fit our criteria of polyglot programs. We also assessed the development effort by measuring the source lines of code ({SLOC}) for the prototype as a whole as well as its components.Debugging is a fundamental part of developing and maintaining software. Lack of debug tools can lead to difficulty in locating software bugs and slow down the development process. We believe this work is relevant to help provide developers proper debugging support regardless of the runtime environment.{CCS} Concepts: • Software and its engineering → Software testing and debugging; Interoperability; Abstraction, modeling and modularity; Software architectures.},
+	number = {3},
+	journaltitle = {The Art, Science, and Engineering of Programming},
+	author = {Houdaille, Philémon and Khelladi, Djamel Eddine and Combemale, Benoit and Mussbacher, Gunter and van Der Storm, Tijs},
+	urldate = {2025-01-30},
+	date = {2025},
+	note = {Publisher: aosa, Inc.},
+	keywords = {debugging, debugging polyglot programming tool modularity, polyglot programming, tool modularity},
+	file = {Full Text PDF:/run/media/phoudail/homedir/phoudail/Zotero/storage/QZ3MSX7A/Houdaille et al. - 2025 - PolyDebug A Framework for Polyglot Debugging.pdf:application/pdf;HAL PDF Full Text:/run/media/phoudail/homedir/phoudail/Zotero/storage/ZVDRAXN6/Houdaille et al. - 2025 - PolyDebug a Framework for Polyglot Debugging.pdf:application/pdf},
+}
