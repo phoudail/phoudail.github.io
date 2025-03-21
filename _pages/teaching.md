@@ -7,6 +7,7 @@ nav: true
 nav_order: 6
 ---
 
+
 For any teaching inquiries, you can contact me through my instutitional e-mail philemon dot houdaille at univ-rennes.fr.
 
 # ASE - IDM
