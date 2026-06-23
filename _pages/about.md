@@ -29,5 +29,5 @@ latest_posts:
 
 I am a PhD student in Software engineering, supervised by [Benoit Combemale](https://people.irisa.fr/Benoit.Combemale/), [Djamel-Eddine Khelladi](http://people.irisa.fr/Djamel-Eddine.Khelladi/) and [Gunter Mussbacher](http://www.ece.mcgill.ca/~gmussb1/).
 
-My research is on the topic of polyglot (multi-language) programming, and more specifically on the validation of polyglot programs.
+My research is on the topic of polyglot (multi-language) programming, and more specifically on supporting the development of polyglot programs via program analysis and IDE tooling.
 I also work alongside the [ALE](http://gemoc.org/ale/team.html) associate team on topics related to Domain Specific Languages, and more generally my research interests are in programming and domain specific languages, compilation, software validation and software evolution.
